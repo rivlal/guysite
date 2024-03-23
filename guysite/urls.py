@@ -20,10 +20,12 @@ from guybible.views import home,accueil,janvier,fevrier,mars,avril,mai,juin,juil
 from guybible.views import AnglaisAudio
 from django.conf import settings
 from django.conf.urls.static import static
+from updater import views
 
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("update_server/", views.update, name="update"),
     path('',home),
     path('accueil/',accueil,name='accueil'),
     path('janvier/',janvier,name='janvier'),

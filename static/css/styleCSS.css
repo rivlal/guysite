@@ -1,0 +1,40 @@
+/*GRID*/
+ .grid-container {
+   display: grid;
+   grid-template-columns: 100%;
+ }
+ form {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-areas: 
+   "i1 i2"
+   "ta ta"
+   "vi bt";
+ }
+ input, textarea {
+   margin: 5px;
+   border: 2px solid darkblue;
+   padding: 10px;
+   font-size: 2.1rem;
+   font-family: "DMSerif";
+   border-radius: 15px;
+ }
+ textarea {
+   grid-area: ta;
+   height: 40px;
+   resize: none;
+ }
+ #btn-submit {
+   grid-area: bt;
+   cursor: pointer;
+   background: cyan;
+   transition: 0.2s;
+ }
+ #btn-submit:hover {
+   background: darkblue;
+   color: white;
+ }
+li {
+    list-style-type: none
+}

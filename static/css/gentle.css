@@ -1,0 +1,151 @@
+/* html tags */
+
+body { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #000;
+	background-color: #FFF }
+p {
+	margin-top: 0.75em;
+/*	margin-bottom: 0.75em; */
+	text-align: left }
+
+/* heading tags */
+h4 {margin-bottom: 0em; font-weight: bold} 
+h3 {margin-bottom: 0em; font-weight: bold} 
+h2 {margin-bottom: 0em; font-weight: bold} 
+h1 {margin-bottom: 0em; font-weight: bold} 
+h1 {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 20px;
+	font-weight: normal;
+	} 
+h2 {font-size: 14px;} 
+h3 {font-size: 12px;} 
+h4 {font-size: 11px;} 
+
+/* links */
+a:link { color: #003399;}
+a:active { color: #0066CC;}
+a:visited { color: #330066;}
+a:hover {  color: #0066CC;}
+
+table { border-color:#000875;
+	font-family: Verdana,Geneva,Helvetica,Arial,sans-serif; 
+	font-size: 11px; 
+}
+th {  
+	background-color:#000875; 
+	color: #FFF
+	} 
+li { font-size: 11px; }
+	
+/* Custom Classes */
+
+.dsisearch { 
+	background-color:#000875;   
+	font-weight: bold; 
+	text-decoration: none; 
+	}
+.dsimenu 
+	{ 
+	background-color:#000;  
+	color:#FFF; 
+	font-size:12px 
+	}
+.dsinav { background-color:#000875 }
+.line { background-color:#000 }
+.pagenumber { 
+	color:#000875;  
+	}
+
+/* navigation styles */
+.globalnav {   
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #FFF }
+a:active.globalnav  { color: #FFF }
+a:visited.globalnav  { color: #FFF }
+a:link.globalnav  { color: #FFF }
+a:hover.globalnav { color: #99CCFF }
+
+td.nav1 { vertical-align: baseline; line-height: 24px }
+.nav1 { 	
+	font-family: Tahoma, Arial, Helvetica, sans-serif; 
+	font-size: 15px; 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #99CCFF }
+a:active.nav1 { color: #99CCFF }
+a:visited.nav1 { color: #99CCFF }
+a:link.nav1 { color: #99CCFF }
+a:hover.nav1 { color: #FFFF66 }
+td.nav2 { vertical-align: baseline; line-height: 15px; } 
+.nav2 {  
+	font-size: 12px; 
+	font-weight: bold; 
+	text-decoration: none; 
+	padding-top: 6px;
+	color: #FFF }
+a:active.nav4 { color: #FFF }
+a:visited.nav4 { color: #FFF }
+a:link.nav4 { color: #FFF }
+a:active.nav3 { color: #FFF }
+a:visited.nav3 { color: #FFF }
+a:link.nav3 { color: #FFF }
+a:active.nav2 { color: #FFF }
+a:visited.nav2 { color: #FFF }
+a:link.nav2 { color: #FFF }
+a:hover.nav4 { color: #FFFF66 }
+a:hover.nav3 { color: #FFFF66 }
+a:hover.nav2 { color: #FFFF66 }
+td.nav3 { vertical-align: baseline; line-height: 10.5px; padding-top:5px; padding-left:7px }
+.nav3 {   
+	font-weight: regular; 
+	text-decoration: none; 
+	color: #FFF; 
+	text-indent:-7 }
+td.nav4 { vertical-align: baseline; line-height: 10px }
+.nav4 {    
+	text-decoration: none; 
+	color: #FFF }
+
+.breadcrumbs {  
+	font-size: 10px; text-decoration: none; color: #666; 
+	z-index: 10; 
+}
+a:visited.breadcrumbs { text-decoration: underline; color: #666 }
+
+a:active.breadcrumbs { text-decoration: underline; color: #666 }
+
+a:hover.breadcrumbs { text-decoration: underline; color: #666 }
+
+a:link.breadcrumbs { text-decoration: underline; color: #666 }
+
+.backtotop {  
+	font-size: 10px; 
+	color: #666; 
+	visibility: show;
+}
+.footerinfo { font-size: 10px; color: #666; }
+.tcnfooter { 
+	font-size: 10px; 
+	color: #000;
+	text-align: center }
+.pagetitle { font-size: 13px; color: #FF8400 ; font-weight: bold }
+.copy { color: #000; }
+td.copy {vertical-align: top;}
+.copytitle {  font-size: 11px; font-weight: bold; color: #000; }
+.copyheader {  font-size: 11px; font-weight: bold; color: #000; }
+.copymini {  font-size: 10px; color: #666; }
+a:link.copymini { font-size: 8px; color: #003399; }
+.navMarker{position: relative; top: auto; left: auto; visibility: hidden }
+.errormsg { color: red }
+.flags { position: relative; left: 20px; top: 5px; height: 15px ; width: 100px; z-index: 99 }
+.bglogo { position: absolute; left: 340px; top: 53px; z-index: 1 }
+.regnum { position: relative; left: 20px; font-weight: bold }
+td.fillintheblank { border-bottom: thin solid gray; line-height: 20px }
+td.fillspacing { line-height: 30px }
+td.heading { background-color: #DDD; }
+.include-dsi-template { background-color: yellow; font-size:12px; font-weight: bold }
+.follow {border-width: 0px; vertical-align: middle;}

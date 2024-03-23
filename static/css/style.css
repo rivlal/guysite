@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+	font-family:'Century-Gothic',Calibri,serif;
+	font-size:13px;
+	margin:0px;
+	padding:10px;
+    padding-top: 10px;
+
+}
+
+h1{
+    text-transform: uppercase;
+	font-size:40px;
+	font-weight:normal;
+	text-align:center;
+	color:green;
+	
+}
+h2{
+	color: orangered;
+	font-size:30px;
+}
+
+
+
+p,pr,ol{
+	color: #FF1493;
+	font-weight:bold;
+    font-size:50px;
+}
+header{
+	height:175px
+}
+[class*="col-"], footer {
+
+  background-color: lightgreen;
+
+  border: 2px solid black;
+
+  border-radius: 6px;
+
+  line-height: 40px;
+
+  text-align: center;
+
+}
+.row {
+
+  margin-right: -15px;
+
+  margin-left: -15px;
+
+}
+.container {
+
+  padding-right: 15px;
+
+  padding-left: 15px;
+
+  margin-right: auto;
+
+  margin-left: auto;
+
+}
+@media (min-width: 768px) {
+
+  .container {
+
+    width: 750px;
+
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .container {
+
+    width: 970px;
+
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .container {
+
+    width: 1170px;
+
+  }
+
+}
+nav li{
+	list-style-type:none;
+	float:left;
+}
+nav ul{
+	margin:0px;
+	padding:0px;
+}
+nav{
+	width:100%;
+	background-color:#424558;
+}
+nav a{
+	display:inline-block;
+	text-decoration:none;
+	padding:20px 30px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:15px;
+}
+a{
+    text-decoration:none;
+    color: blue;
+    cursor: pointer;
+}
+/* Code From Scratch*/
+img {
+    border-radius: 50%;/* 50% boribory*/
+    box-shadow: 0 0 0 4px rgb(99,164,233),0 0 0 8px #4FEDD2;
+}
+
+@media screen and (max-width:900px) {
+    img {
+        width: 400px;
+    }
+}
+.table{
+	display:table;
+	margin:0 auto;
+}
+.menu-ind:hover{
+	border-top:5px solid #4c8;
+	background-color:RGBa(64,200,130,0.15);
+}
+.menu-daily:hover{
+	border-top:5px solid #f1dc4f;
+	background-color:RGBa(241,211,79,0.15);
+}
+.menu-exp:hover{
+	border-top:5px solid #f1dc4f;
+	background-color:RGBa(241,211,79,0.15);
+}
+.menu-hob:hover{
+	border-top:5px solid #0070bb;
+	background-color:RGBa(000,112,192,0.15);
+}
+.menu-con:hover{
+	border-top:5px solid #e44d26;
+	background-color:RGBa(228,77,38,0.15);
+}
+.menu-tc:hover{
+	border-top:5px solid #f1dc4f;
+	background-color:RGBa(241,211,79,0.15);
+}
+.week{
+    background-color:green;
+}
+.classes{
+    background-color:#edd142;
+}
+.aceem{
+    color : blue;
+	background-color:greenyellow;/*yellow*/
+    text-align:left;
+}
+.lycee{
+    color : blue;
+	background-color:orange;
+}
+.MAG2{
+    color : gold;
+	background-color:darkseagreen;
+}
+.betafo{
+    background-color: white;
+}
+
+.ravintsara{
+	background-color:chartreuse;
+}
+
+.emploi{
+	margin-left:0px;
+    
+}
+.daily{
+	color:red;
+    background-color: pink;
+}
+.rose{
+    background-color: pink;
+}
+.evnt{
+    color:green;
+    background-color: yellow;
+}
+.rachel{
+    color:blue;
+    text-align:left;
+    font-size:25px;
+}
+.manga{
+    color:maroon;
+}
+.gita{
+    color:green;
+    font-size:20;
+}
+nav li:hover a{
+	padding:15px 30px 20px 30px;
+}
+section{
+	width:100%;
+	min-height:300%;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.sec{
+	margin:0px 5%;
+}
+.left{
+	float:left;
+	width:40%;
+}
+.right{
+	float:left;
+	width:60%;
+}
+.gauche{
+	float:left;
+	width:50%;
+	background-color:yellow;
+	font-size:30px;
+}
+.droite{
+	float:left;
+	width:50%;
+	background-color:orange;
+	font-size:30px;
+}
+#corps{
+    background-color:maroon;
+}
+#corpsMai{
+    background-color:#7FFF00;
+}
+#corpsJuin{
+    background-color: red;
+}
+#corpsBible{
+    background-color: yellow;
+    
+}
+
+.cleft,.cright,.sousleft,.sousright{
+	width:50%;
+	float:left;
+}
+.sec::after,.exp::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+#presentation{
+	border-top:5px solid #4c8;
+	background-color:RGBa(64,200,130,0.15);
+}
+#parcours{
+	border-top:5px solid #f1dc4f;
+	background-color:RGBa(241,211,79,0.15);
+}
+#competences{
+	border-top:5px solid #e44d26;
+	background-color:RGBa(228,77,38,0.15);
+}
+#renseignement{
+	border-top:5px solid #e44d26;
+	background-color:RGBa(228,77,38,0.15);
+}
+#anglais{
+	border-top:5px solid #4c8;
+	background-color:RGBa(64,200,130,0.15);
+	font-size: 20px;
+}
+#mai{
+	border-top:5px solid #4c8;
+	background-color:#00FFFF;
+	font-size: 20px;
+}
+#juin{
+	border-top:5px solid #4c8;
+	background-color:#7FFF00;
+	font-size: 20px;
+}
+#cours{
+	border-top:5px solid #e44d26;
+	background-color:RGBa(228,77,38,0.15);
+	font-size: 20px;
+}
+#journal{
+	border-top:5px solid #f1dc4f;
+	background-color:RGBa(450,21,79,0.15);
+	font-size: 20px;
+}
+
+.etablissement{
+font-style: italic;
+color:green;
+font-size: 50px;
+}
+
+#pa{
+    width: 50%
+}
+table{
+	border-collapse:collapse; 
+}
+math{
+    font-size:30;
+    color:blue;
+}
+ul,ol{
+    color:blue;
+}
+
+td{
+	
+border:2px solid red;
+color: blue;
+font-size: 30px;
+padding: 20px 20px 20px 20px;
+		
+}
+mtd{
+    border:2px solid black;
+text-align: center;
+		color: blue;
+		font-size: 20px;
+		padding: 20px 20px 20px 20px;
+}
+th{
+	color:aqua;
+	font-size: 50px;
+	
+}
+.simil{
+    font-size:20px;
+    color: red;
+}
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.15em;
+}
+.fraction span.fdn {border-top: thin solid black;}
+.fraction span.bar {display: none;}
+.suite{
+	font-size: 30px;
+}
+.sy {
+    position: relative;
+    text-align: center;
+}
+.oncapital, .onsmall {
+    position: absolute;
+    top: -0.5em;
+    left: 0px;
+    width: 100%;
+    font-size: 120%;
+    text-align: center;
+}
+.onsmall {
+    top: -0.7em;
+}
+.limes {
+    position: relative;
+    display: inline-block;
+    margin: 0 0.2em;
+    vertical-align: middle; 
+    text-align: center;
+}
+.limes > span { 
+    display: block;
+    margin:-0.5ex auto;
+}
+.limes span.numup,
+.limes span.overdn {
+    font-size: 70%;
+}
+.intsuma {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.intsuma > span {
+    display: block;
+    font-size: 70%;
+}
+.intsuma .lim-up {
+    margin-bottom: -1.0ex;
+}
+.intsuma .lim {
+    margin-top: -0.5ex;
+}
+.intsuma .sum {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.intsuma .sum-frac {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+#guy {
+    font-family: 'Dancing Script', cursive; 
+}
+.pi-day {
+   display: inline-block;
+   margin: 5px;
+   border: 1px solid white;
+   padding: 50px;
+   font-size: 30px;
+   font-family: "DMSerif";
+   border-radius: 8%;/* 15px */
+   background-color: lightgreen;
+   width: 1070px;
+   text-align: center;
+   color: blueviolet;
+}
+/* style="border: 10px solid blue; padding: 50px; font-size: 30px; color: blueviolet" */
+footer {
+    font-family:'Century-Gothic',Calibri,serif;
+    background-color: crimson;
+    color: red;
+    padding: 20px 0 10px 0;
+    }
+form {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+input, textarea {
+        display: flex;
+        align-items: center;
+        height: 300px;
+        border: none;
+        width: 900px;
+        padding: 15px 10px;
+        margin: 1px 0;
+        font-family:'Century-Gothic',Calibri,serif;
+        font-size: 1.2em;
+        border-radius: 8px;
+        margin-left: calc(50% - 128px);
+    }
